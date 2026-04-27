@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" width="200" height="240">
+  <defs>
+    <clipPath id="shirt">
+      <path d="M40,50 L20,65 L5,100 L30,110 L40,85 L40,200 C40,210 50,220 60,220 L140,220 C150,220 160,210 160,200 L160,85 L170,110 L195,100 L180,65 L160,50 L130,35 C125,55 75,55 70,35 Z"/>
+    </clipPath>
+  </defs>
+  <!-- base azzurro blue shirt -->
+  <path d="M40,50 L20,65 L5,100 L30,110 L40,85 L40,200 C40,210 50,220 60,220 L140,220 C150,220 160,210 160,200 L160,85 L170,110 L195,100 L180,65 L160,50 L130,35 C125,55 75,55 70,35 Z" fill="#0066B3" stroke="#333" stroke-width="1.5"/>
+  <!-- white collar -->
+  <path d="M70,35 C75,55 125,55 130,35" fill="#FFFFFF" stroke="#333" stroke-width="1.5"/>
+  <!-- white sleeve trim -->
+  <rect x="5" y="95" width="35" height="5" fill="#FFFFFF" clip-path="url(#shirt)"/>
+  <rect x="160" y="95" width="35" height="5" fill="#FFFFFF" clip-path="url(#shirt)"/>
+  <!-- tricolor badge area hint -->
+  <rect x="92" y="65" width="5" height="15" fill="#009246" clip-path="url(#shirt)"/>
+  <rect x="97" y="65" width="5" height="15" fill="#FFFFFF" clip-path="url(#shirt)"/>
+  <rect x="102" y="65" width="5" height="15" fill="#CE2B37" clip-path="url(#shirt)"/>
+  <!-- year text -->
+  <text x="100" y="145" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">1982</text>
+</svg>

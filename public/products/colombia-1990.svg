@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" width="200" height="240">
+  <defs>
+    <clipPath id="shirt">
+      <path d="M40,50 L20,65 L5,100 L30,110 L40,85 L40,200 C40,210 50,220 60,220 L140,220 C150,220 160,210 160,200 L160,85 L170,110 L195,100 L180,65 L160,50 L130,35 C125,55 75,55 70,35 Z"/>
+    </clipPath>
+  </defs>
+  <!-- base yellow shirt -->
+  <path d="M40,50 L20,65 L5,100 L30,110 L40,85 L40,200 C40,210 50,220 60,220 L140,220 C150,220 160,210 160,200 L160,85 L170,110 L195,100 L180,65 L160,50 L130,35 C125,55 75,55 70,35 Z" fill="#FCD116" stroke="#333" stroke-width="1.5"/>
+  <!-- blue collar -->
+  <path d="M70,35 C75,55 125,55 130,35" fill="#003893" stroke="#333" stroke-width="1.5"/>
+  <!-- red and blue sleeve trim -->
+  <rect x="5" y="93" width="35" height="5" fill="#CE1126" clip-path="url(#shirt)"/>
+  <rect x="5" y="98" width="35" height="5" fill="#003893" clip-path="url(#shirt)"/>
+  <rect x="160" y="93" width="35" height="5" fill="#CE1126" clip-path="url(#shirt)"/>
+  <rect x="160" y="98" width="35" height="5" fill="#003893" clip-path="url(#shirt)"/>
+  <!-- year text -->
+  <text x="100" y="145" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#003893">1990</text>
+</svg>
