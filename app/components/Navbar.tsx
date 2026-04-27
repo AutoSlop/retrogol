@@ -24,6 +24,9 @@ export default function Navbar() {
           <a href="#tallas" className="transition hover:text-gold">
             Tallas
           </a>
+          <a href="#colombianos" className="transition hover:text-gold">
+            🇨🇴 Colombianos
+          </a>
           <a href="#colecciones" className="transition hover:text-gold">
             Colecciones
           </a>
@@ -61,6 +64,7 @@ export default function Navbar() {
             <a href="#bestsellers" onClick={() => setOpen(false)} className="transition hover:text-gold">Bestsellers</a>
             <a href="#como-funciona" onClick={() => setOpen(false)} className="transition hover:text-gold">Cómo Funciona</a>
             <a href="#tallas" onClick={() => setOpen(false)} className="transition hover:text-gold">Tallas</a>
+            <a href="#colombianos" onClick={() => setOpen(false)} className="transition hover:text-gold">🇨🇴 Colombianos</a>
             <a href="#colecciones" onClick={() => setOpen(false)} className="transition hover:text-gold">Colecciones</a>
             <a href="#faq" onClick={() => setOpen(false)} className="transition hover:text-gold">FAQ</a>
             <a

@@ -5,6 +5,7 @@ import HowItWorks from "./components/HowItWorks";
 import SizeGuide from "./components/SizeGuide";
 import Trust from "./components/Trust";
 import AllProducts from "./components/AllProducts";
+import ColombianProducts from "./components/ColombianProducts";
 import Collections from "./components/Collections";
 import FAQ from "./components/FAQ";
 import LeadCapture from "./components/LeadCapture";
@@ -21,6 +22,7 @@ export default function Home() {
         <SizeGuide />
         <Trust />
         <AllProducts />
+        <ColombianProducts />
         <Collections />
         <FAQ />
         <LeadCapture />
